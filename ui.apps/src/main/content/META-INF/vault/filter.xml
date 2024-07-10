@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/kd/clientlibs"/>
+    <filter root="/apps/kd/components"/>
+    <filter root="/apps/kd/i18n"/>
+    <filter root="/apps/fd/af/themes" mode="merge"/>
+
+</workspaceFilter>

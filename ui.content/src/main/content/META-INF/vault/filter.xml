@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/kd" mode="merge"/>
+    <filter root="/content/kd" mode="merge"/>
+    <filter root="/content/dam/kd" mode="merge">
+        <exclude pattern="/content/dam/kd(/.*)?"/>
+        <include pattern="/content/dam/kd/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/kd/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/kd" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/kd" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/kd" mode="merge"/>
+    <filter root="/content/dam/kd/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/kd/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/kd/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
